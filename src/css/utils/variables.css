@@ -1,0 +1,23 @@
+:root{
+
+    --Arvo: 'Arvo';
+    --Montserrat_Alternates: 'Montserrat_Alternates';
+
+    /* Color styles */
+--bleufonce: rgba(43, 81, 114, 1);
+--rouge: rgba(245, 76, 61, 1);
+--bleuclair: rgba(150, 214, 255, 1);
+--jaune: rgba(255, 229, 149, 1);
+--jaune-2: rgba(255, 220, 113, 1);
+--jaune-3: rgba(255, 211, 78, 1);
+--bleu-2: rgba(80, 187, 255, 1);
+
+/* Text-size styles */
+--texte-article: 13px;
+--sous-titre-article: 33px;
+--titre-page: 32.5px;
+--menu-hamburger: 14.5px;
+--texte-carré-bleu: 24px;
+--texte-carré-bleu2: 13px;
+    
+    }
