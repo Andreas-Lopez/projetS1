@@ -2,26 +2,34 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¨Problème écologique</title>
+    <title>¨Problème <br>écologique</title>
 </head>
 
 <body>
 
-    <header>
-        <img src="public/icons/menuhamburger.svg" alt="">
-        <h1>Fly New</h1>
-        <img src="public/icons/LOGO.svg" alt="">
+    <header class="header">
+        <a href="menu.html"><img src="public/icons/menuhamburger.svg" alt="menu hamburger" class="headermenu"></a>
+        <h1 class="headertitre">Fly New</h1>
+        <a href="index.html"><img src="public/icons/LOGO.svg" alt="logo" class="headerlogo"></a>
     </header>
 
     <main>
 
         <h2>Problème écologique</h2>
-        <img src="public/icons/Icone-1.svg" alt="">
+        <div class="iconedebut">
+            <img src="public/icons/Icone-1.svg" alt="">
+        </div>
 
-        <p>Si vous êtes arrivé sur cette page,
+        <div class="barrejaune1"></div>
+        <div class="barrejaune2"></div>
+        <div class="barrejaune3"></div>
+<section>
+
+        <p class="texte">Si vous êtes arrivé sur cette page,
             c’est que vous êtes concerné par la
             pollution de l’air !
         </p>
@@ -32,8 +40,8 @@
             </figcaption>
         </figure>
 
-        <h3>Introduction</h3>
-        <p>Quel rêve de pouvoir faire New York -
+        <button class="introduction" type="submit">Introduction</button> 
+        <p class="texte">Quel rêve de pouvoir faire New York -
             Vienne dans un vol privé en première
             classe ! Des sièges confortables, de
             l’espace pour dormir, pas de voisin
@@ -51,13 +59,13 @@
             combustion.
         </p>
 
-        <p>D’après le ministère de la Transition
+        <p class="texte">D’après le ministère de la Transition
             écologique, dans son guide Info GES 2018,
             on obtiendrait les résultats suivants:
         </p>
 
         <img src="public/img/Tableau.png" alt="">
-        <p>On voit donc qu’un avion émet beaucoup
+        <p class="texte">On voit donc qu’un avion émet beaucoup
             plus de CO2 que la voiture ou le train. Vous
             pourriez me dire « Mais le CO2 n’est pas
             dangereux pour la santé ! » Dans
@@ -79,7 +87,7 @@
 
         <h6>Article Livre</h6>
         <h5>Effet de serre</h5>
-        <p>On a trop souvent tendance à l’oublier mais
+        <p class="texte">On a trop souvent tendance à l’oublier mais
             l’effet de serre est tout d’abord NATUREL. Il
             s’agit de l’élévation de la température
             terrestre. Sans ce phénomène, la Terre
@@ -109,7 +117,7 @@
 
         <h5>Conséquences</h5>
 
-        <p>Les températures pourraient augmenter de
+        <p class="texte">Les températures pourraient augmenter de
             3,7 à 4,8°C d’ici la fin du siècle. Le
             réchauffement climatique cause la fonte
             des glaces, l’augmentation du niveau des
@@ -140,7 +148,7 @@
             réchauffement
             climatique</p>
 
-        <p>Vous comprenez donc à quel point
+        <p class="texte">Vous comprenez donc à quel point
             l’émission de CO2 a des répercussions
             gravissimes sur la Terre. En 2017, on notait 1
             vol d’avion par seconde dans le monde. En
@@ -160,7 +168,7 @@
 
         <img src="public/img/trianglegauche.png" alt="">
         <p>Cycle LTO :</p>
-        <p>(Landing and Take Off = atterrissage et
+        <p class="texte">(Landing and Take Off = atterrissage et
             décollage) Cette phase concerne le
             décollage, la montée, l’approche,
             l’atterrissage et le roulage. L’avion vole
@@ -173,7 +181,7 @@
         </p>
 
         <p>Phase de croisière </p>
-        <p>Cette phase se situe entre le décollage et
+        <p class="texte">Cette phase se situe entre le décollage et
             l’atterrissage. L’avion vole à une altitude
             minimum de 915m. Cela correspond à la
             majorité du vol. La pollution se fait à
@@ -181,7 +189,7 @@
 
         <img src="public/img/Diagramme.png" alt="">
 
-        <p>La quantité de CO2 émis dépend du type
+        <p class="texte">La quantité de CO2 émis dépend du type
             du moteur, du poids de l’avion, et du
             nombre de ses escales. Certaines
             compagnies aériennes sont réputées pour
@@ -197,7 +205,7 @@
             qu’un avion parmi 37 millions !
         </p>
 
-        <p>Entre 2011 et 2036, on prévoit que le
+        <p class="texte">Entre 2011 et 2036, on prévoit que le
             nombre d’avions va doubler ainsi que
             leur production de CO2.
 
@@ -215,13 +223,16 @@
 
 
     </main>
+</section>
+    <footer class="footer">
+        <u>
+            <p class="footerT1">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard
+            </p>
+        </u>
 
-    <footer>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
+        <p class="footerT2">Cécile Gaultier A2</p>
 
-        <p>Cécile Gaultier A2</p>
-
-        <p>gaulph@gmail.com</p>
+        <button class="mail" type="submit">gaulph@gmail.com</button>
     </footer>
 
 </body>

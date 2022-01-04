@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,23 @@
 
 <body>
 
-    <header>
-        <img src="public/icons/menuhamburger.svg" alt="">
-        <h1>Fly New</h1>
-        <img src="public/icons/LOGO.svg" alt="">
+    <header class="header">
+        <a href="menu.html"><img src="public/icons/menuhamburger.svg" alt="menu hamburger" class="headermenu"></a>
+        <h1 class="headertitre">Fly New</h1>
+        <a href="index.html"><img src="public/icons/LOGO.svg" alt="logo" class="headerlogo"></a>
     </header>
 
     <main>
         <h2>Super Héros</h2>
+        <div class="iconedebut">
         <img src="public/icons/Icone.svg" alt="">
+    </div>
 
-        <p>Si vous êtes arrivé sur cette page,
+    <div class="barrejaune1"></div>
+    <div class="barrejaune2"></div>
+    <div class="barrejaune3"></div>
+<section>
+        <p class="texte">Si vous êtes arrivé sur cette page,
             c’est que vous avez senti le besoin de
             parfaire votre culture sur Iron Man.</p>
 
@@ -29,8 +36,8 @@
             <figcaption>©Pinterest - Nicole Nesbitt</figcaption>
         </figure>
 
-        <h3>Introduction</h3>
-        <p>Pour les néophytes, Iron Man est un
+        <button class="introduction" type="submit">Introduction</button> 
+        <p class="texte">Pour les néophytes, Iron Man est un
             super-héros de comics du Marvel
             Universe. Il est créé en 1963 dans
             Tales of Suspense n°39 par Stan Lee
@@ -46,7 +53,7 @@
             dans l’univers Marvel.</p>
 
         <h5>Biographie</h5>
-        <p>Tony est un brillant scientifique qui sort à
+        <p class="texte">Tony est un brillant scientifique qui sort à
             seize ans à peine du MIT. Il est en quête
             perpétuelle d’innovations et de
             découvertes. Mais après le décès de ses
@@ -83,7 +90,7 @@
             63</p>
 
         <h5>Caractère</h5>
-        <p>Tony est extrêmement narcissique et
+        <p class="texte">Tony est extrêmement narcissique et
             hautain. Il s’estime au-dessus des autres
             grâce à son génie et à sa fortune. Il est
             également un Don Juan avec les femmes.
@@ -123,7 +130,7 @@
 
         <h5>Technologies</h5>
 
-        <p>Iron Man est connu pour sa fameuse
+        <p class="texte">Iron Man est connu pour sa fameuse
             armure rouge et jaune. Elle est alimentée
             par le générateur ARK qui émet une lueur
             bleue. Elle lui permet de voler à très haute
@@ -147,16 +154,16 @@
             Par exemple, il est le créateur du :
         </p>
 
-        <img src="public/img/trianglegauche.png" alt="">
+        <img class="petitefleche" src="public/img/trianglegauche.png" alt="">
         <p>Quinjet (avion des Avengers )</p>
-        <img src="public/img/trianglegauche.png" alt="">
+        <img class="petitefleche" src="public/img/trianglegauche.png" alt="">
         <p>Héliporteur (SHIELD)</p>
-        <img src="public/img/trianglegauche.png" alt="">
+        <img class="petitefleche" src="public/img/trianglegauche.png" alt="">
         <p>Boeings (jets personnels)</p>
-        <img src="public/img/trianglegauche.png" alt="">
+        <img class="petitefleche" src="public/img/trianglegauche.png" alt="">
         <p>Stark Cargo Plane (transport de
             matériel) </p>
-        <img src="public/img/trianglegauche.png" alt="">
+        <img class="petitefleche"  src="public/img/trianglegauche.png" alt="">
         <p>Divers avions pour l’armée</p>
 
         <figure>
@@ -172,7 +179,7 @@
 
         <h5>Cinéma</h5>
 
-        <p>Dans tous les films, on peut voir Iron Man
+        <p class="texte">Dans tous les films, on peut voir Iron Man
             utiliser ses jets personnels soit pour
             véhiculer les Avengers et Spider-Man soit
             pour transporter son équipement d’une
@@ -202,14 +209,14 @@
             par Stan Lee
         </p>
 
-        <p>Iron Man est le héros de comics, de films,
+        <p class="texte">Iron Man est le héros de comics, de films,
             de jeux-vidéos …Si vous voulez en savoir
             plus, rendez vous à la page galerie du site.
         </p>
 
         <h6>Article Galerie</h6>
 
-        <p>Avec sa vie de multimilliardaire et de
+        <p class="texte">Avec sa vie de multimilliardaire et de
             sauveur de galaxies, on ne peut
             qu’admirer Iron Man. Et pourtant,
             savez-vous quelle est la
@@ -227,13 +234,13 @@
         </p>
 
         <h6>Article problème écologique</h6>
-
-        <footer>
-            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
-
-            <p>Cécile Gaultier A2</p>
-
-            <p>gaulph@gmail.com</p>
+    </section>
+        <footer class="footer">
+            <u><p class="footerT1">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p></u>
+    
+            <p class="footerT2">Cécile Gaultier A2</p>
+    
+            <button class="mail" type="submit">gaulph@gmail.com</button>
         </footer>
 
     </main>

@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +12,23 @@
 <body>
 
     <header class="header">
-        <img src="public/icons/menuhamburger.svg" alt="">
-        <h1>Fly New</h1>
-        <img src="public/icons/LOGO.svg" alt="">
+        <a href="menu.html"><img src="public/icons/menuhamburger.svg" alt="menu hamburger" class="headermenu"></a>
+        <h1 class="headertitre">Fly New</h1>
+        <a href="index.html"><img src="public/icons/LOGO.svg" alt="logo" class="headerlogo"></a>
     </header>
 
     <main>
 
         <h2>Livres</h2>
+        <div class="iconedebut">
         <img src="public/icons/icone-4.svg" alt="">
-        <p>Si vous êtes arrivé sur cette page,
+    </div>
+
+    <div class="barrejaune1"></div>
+    <div class="barrejaune2"></div>
+    <div class="barrejaune3"></div>
+<section>
+        <p class="texte">Si vous êtes arrivé sur cette page,
             c’est que Dr Peytavin a déclenché
             votre curiosité !
         </p>
@@ -30,15 +38,15 @@
             <figcaption>©Decitre</figcaption>
         </figure>
 
-        <h3>Introduction</h3>
-        <p>La pollution concerne différents
+        <button class="introduction" type="submit">Introduction</button> 
+        <p class="texte">La pollution concerne différents
             domaines. Le Dr Peytavin et le
             biologiste Emmanuel Chanut ont
             décidé d’alerter le lecteur sur les
             différents risques de la pollution.</p>
 
         <h5>Résumé</h5>
-        <p>Extrait de la 4ème de couverture :
+        <p class="texte">Extrait de la 4ème de couverture :
 
             « Cet ouvrage pratique vous explique les
             grands principes qui font que l’homme
@@ -51,7 +59,7 @@
         <img src="public/img/trianglegauche.png" alt="">
         <p>Dr Jean-Louis Peytavin :</p>
         <img src="public/img/Personnage.png" alt="">
-        <p>Ce diplômé de médecine de Lyon
+        <p class="texte">Ce diplômé de médecine de Lyon
             a décidé de se concentrer sur
             l’écriture. En effet, il a écrit
             plusieurs ouvrages sur la santé.</p>
@@ -69,7 +77,7 @@
         <img src="public/img/trianglegauche.png" alt="">
         <p>Emmanuel Chanut :</p>
         <img src="public/img/Personnage.png" alt="">
-        <p>Ce diplômé de biologie et écologie
+        <p class="texte">Ce diplômé de biologie et écologie
             a poursuivi son chemin en tant que
             journaliste scientifique. Il travaille
             maintenant sur la transmission
@@ -86,13 +94,13 @@
         </figure>
 
     </main>
+</section>
+    <footer class="footer">
+        <u><p class="footerT1">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p></u>
 
-    <footer>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
+        <p class="footerT2">Cécile Gaultier A2</p>
 
-        <p>Cécile Gaultier A2</p>
-
-        <p>gaulph@gmail.com</p>
+        <button class="mail" type="submit">gaulph@gmail.com</button>
     </footer>
 
 </body>

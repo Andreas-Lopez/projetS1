@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,34 @@
 
 <body>
 
-    <header>
-        <img src="public/icons/menuhamburger.svg" alt="">
-        <h1>Fly New</h1>
-        <img src="public/icons/LOGO.svg" alt="">
+    <header class="header">
+        <a href="menu.html"><img src="public/icons/menuhamburger.svg" alt="menu hamburger" class="headermenu"></a>
+        <h1 class="headertitre">Fly New</h1>
+        <a href="index.html"><img src="public/icons/LOGO.svg" alt="logo" class="headerlogo"></a>
     </header>
 
     <main>
 
         <h2>Page galerie</h2>
+        <div class="iconedebut">
         <img src="public/icons/Icone-5.svg" alt="">
-        <p>Ici, vous retrouverez tous les films
+    </div>
+
+    <div class="barrejaune1"></div>
+    <div class="barrejaune2"></div>
+    <div class="barrejaune3"></div>
+<section>
+        <p class="texte">Ici, vous retrouverez tous les films
             dans lesquels Tony Stark apparait.
         </p>
 
-        <figure>
+        <figure class="imagecentre">
             <img src="public/img/tony-stark.webp" alt="">
             <figcaption>©Marvel</figcaption>
         </figure>
 
-        <h3>Introduction</h3>
-        <p>Iron Man devient extrêmement
+        <button class="introduction" type="submit">Introduction</button> 
+        <p class="texte">Iron Man devient extrêmement
             connu à partir des adaptations
             cinématographiques des comics.
             C’est Iron Man de John Favreau
@@ -45,7 +53,7 @@
         <img src="public/img/trianglegauche.png" alt="">
         <p>Iron Man (2008)</p>
         <img src="public/img/Iron_Man.webp" alt="">
-        <p>Le premier film officiel sur Iron Man sort en
+        <p class="texte">Le premier film officiel sur Iron Man sort en
             2008 par Jon Favreau. Tony Stark (Robert
             Downey. Jr) est kidnappé en Afghanistan.
             Le méchant Obadiah Stone (Jeff Bridges)
@@ -71,7 +79,7 @@
             pour concevoir le design de l’armure d’Iron
             Man. </p>
 
-        <q>« Pour bien
+        <q class="texte">« Pour bien
             transposer Iron
             Man au cinéma, il
             fallait […] rester
@@ -90,7 +98,7 @@
         <p>Iron Man 2 (2010)</p>
         <img src="public/img/IronMan1.webp" alt="">
 
-        <p>Iron Man 2 est la suite directe d’Iron Man
+        <p class="texte">Iron Man 2 est la suite directe d’Iron Man
             par le même réalisateur. Dans ce film, Tony
             plonge dans l’alcoolisme lorsque la
             situation lui échappe : il apprend sa mort
@@ -126,7 +134,7 @@
             2012</p>
         <p>Avengers (2012)</p>
         <img src="public/img/Avengers.webp" alt="">
-        <p>Avengers est le premier film Marvel
+        <p class="texte">Avengers est le premier film Marvel
             regroupant plusieurs super-héros du même
             univers. Ces super-héros s’unissent face à
             l’attaque des aliens dirigée par Loki. Le film
@@ -144,7 +152,7 @@
             de 2017
         </p>
         <img src="public/img/spider-man-homecoming.webp" alt="">
-        <p>Spider-Man Homecoming est le premier
+        <p class="texte">Spider-Man Homecoming est le premier
             film Marvel regroupant Spider-man et Iron
             Man. Ce dernier apprend au jeune Tony
             Parker (alias Spider-Man) les contraintes
@@ -155,7 +163,7 @@
         <video src="public/video/spider-man-homecoming-trailer-4.mp4"></video>
         <p>Extrait du film Spider-Man Homecoming (2017) - ©Allociné</p>
 
-        <p>Les super-héros sont des modèles et
+        <p class="texte">Les super-héros sont des modèles et
             des sources d’inspiration. Ils nous
             font rêver quotidiennement. Pourtant,
             saviez-vous que ces « héros »
@@ -168,13 +176,14 @@
 
 
     </main>
+</section>
 
-    <footer>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
+    <footer class="footer">
+        <u><p class="footerT1">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p></u>
 
-        <p>Cécile Gaultier A2</p>
+        <p class="footerT2">Cécile Gaultier A2</p>
 
-        <p>gaulph@gmail.com</p>
+        <button class="mail" type="submit">gaulph@gmail.com</button>
     </footer>
 
 </body>

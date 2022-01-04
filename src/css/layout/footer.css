@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--bleuclair);
+    font-family: 'Montserrat Alternates';
+    color: var(--bleufonce);
+    width: 100%;
+    height: 165px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerT1 {
+    font-size: 11.5px;
+    font-weight: 700;
+}
+
+.footerT2 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.mail {
+    background-color: var(--jaune);
+    border-radius: 25px; 
+    font-size: 13px;
+    font-weight: 600;
+    margin: auto;
+    border: transparent;
+    width: 180px;
+    align-self: center;
+    padding: 9px;
+  }

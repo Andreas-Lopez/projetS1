@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,25 @@
 
 <body>
 
-    <header>
-        <img src="public/icons/menuhamburger.svg" alt="">
-        <h1>Fly New</h1>
-        <img src="public/icons/LOGO.svg" alt="">
+    <header class="header">
+        <a href="menu.html"><img src="public/icons/menuhamburger.svg" alt="menu hamburger" class="headermenu"></a>
+        <h1 class="headertitre">Fly New</h1>
+        <a href="index.html"><img src="public/icons/LOGO.svg" alt="logo" class="headerlogo"></a>
     </header>
 
     <main>
+        
 
         <h2>Autres projets</h2>
+        <div class="iconedebut">
         <img src="public/icons/icone-4.svg" alt="">
+    </div>
 
-        <p>Si vous êtes arrivé sur cette page, c’est
+    <div class="barrejaune1"></div>
+    <div class="barrejaune2"></div>
+    <div class="barrejaune3"></div>
+    <section>
+        <p class="texte">Si vous êtes arrivé sur cette page, c’est
             que vous vous sentez concerné par
             l’environnement. Apprenez comment
             ces super-héros polluent la planète !</p>
@@ -31,8 +39,8 @@
             <figcaption>©Marvel Legacy</figcaption>
         </figure>
 
-        <h3>Introduction</h3>
-        <p>Ce site fait partie du projet de S1 de
+        <button class="introduction" type="submit">Introduction</button> 
+        <p class="texte">Ce site fait partie du projet de S1 de
             la première année du MMI
             Montbéliard. Vous pouvez
             retrouver les autres projets sur
@@ -80,29 +88,29 @@
         <p>Le plastique, une idée fumante - Benjamin BEY</p>
         <p>©Anime-Planet</p>
 
-        <img src="public/img/sanji.webp" alt="">
+        <img src="public/img/berserk.webp" alt="">
         <p>Projet Guts</p>
         <p>Rage against the nature - Lucas BAILLY</p>
         <p>©Berserk Fan Art source - Instagram</p>
 
-        <img src="public/img/sanji.webp" alt="">
+        <img src="public/img/mario.webp" alt="">
         <p>Projet Super Mario</p>
         <p>Super Mario, The Water Waster - Elmir GEROVIC</p>
         <p>©IGN.com</p>
 
-        <img src="public/img/sanji.webp" alt="">
+        <img src="public/img/obelix.webp" alt="">
         <p>Projet Obélix</p>
         <p>Le Gaulois - Matthieu MUCCIO</p>
         <p>©Otakia</p>
 
     </main>
+</section>
+    <footer class="footer">
+        <u><p class="footerT1">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p></u>
 
-    <footer>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard </p>
+        <p class="footerT2">Cécile Gaultier A2</p>
 
-        <p>Cécile Gaultier A2</p>
-
-        <p>gaulph@gmail.com</p>
+        <button class="mail" type="submit">gaulph@gmail.com</button>
     </footer>
 
 </body>

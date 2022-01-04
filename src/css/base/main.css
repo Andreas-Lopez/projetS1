@@ -1,0 +1,113 @@
+body {
+    background-color: var(--bleufonce);
+    
+}
+
+.accueiltl {
+    display: flex;
+    width: 100%;
+}
+
+.triangle {
+    width: 50%;
+    z-index: -1;
+}
+
+.avion {
+    margin: -20%;
+    width: 40%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Montserrat Alternates'; 
+    color: white;
+    font-weight: 400;
+}
+
+.barrejaune1 {
+    background-color: var(--jaune-3);
+    height:10px;
+    width:100%;
+    margin-top: 14px;
+  }
+
+  .barrejaune2 {
+    background-color: var(--jaune-2);
+    height:10px;
+    width:100%;
+    margin-top: 14px;
+  }
+
+  .barrejaune3 {
+    background-color: var(--jaune);
+    height:10px;
+    width:100%;
+    margin-top: 14px;
+    margin-bottom: 25px;
+  }
+
+  .iconsmenu {
+      display: flex;
+  }
+
+  .textemenu {
+      font-size: 14.5px;
+      color: white;
+      font-family: 'Arvo';
+  }
+
+.alignmenu {
+    display: flex;
+    margin: 20px;
+   
+    
+}
+
+h2 {
+    font-family: 'Arvo';
+    font-size: 32.5px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.iconedebut {
+    display: flex;
+}
+
+
+main {
+    margin-top: 20%;
+}
+
+.texte {
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 500;
+    margin: 30px;
+}
+
+section {
+    padding: 20px;
+}
+
+.introduction {
+    background-color: var(--bleuclair);
+    font-size: 24px;
+    font-family: 'Arvo';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 180px;
+    align-self: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.petitefleche {
+    width: 7%;
+}
+
