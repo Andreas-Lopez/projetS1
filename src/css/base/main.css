@@ -45,7 +45,7 @@ figcaption {
     height:10px;
     width:100%;
     margin-top: 14px;
-    margin-bottom: 25px;
+  
   }
 
   .iconsmenu {
@@ -75,6 +75,7 @@ h2 {
 
 .iconedebut {
     display: flex;
+   
 }
 
 
@@ -86,7 +87,7 @@ main {
     color: white;
     font-size: 13px;
     font-family: 'Montserrat Alternates';
-    font-weight: 500;
+    font-weight: 400;
     margin: 30px;
 }
 
@@ -95,6 +96,7 @@ section {
 }
 
 .introduction {
+    color: var(--bleufonce);
     background-color: var(--bleuclair);
     font-size: 24px;
     font-family: 'Arvo';
@@ -109,5 +111,108 @@ section {
 
 .petitefleche {
     width: 7%;
+    margin-left: 30px;
+    
 }
 
+.soustitre {
+    background-color: var(--jaune-3);
+    font-size: 33px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 250px;
+    align-self: center;
+    padding: 15px;
+    color: white;
+    
+}
+
+.soustitredroite {
+    background-color: var(--jaune-3);
+    font-size: 33px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 250px;
+    align-self: center;
+    padding: 15px;
+    color: white;
+    margin-left: 125px;
+    
+}
+
+.quote {
+    font-family: 'Arvo';
+    font-weight: 600;
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
+.bleucitation {
+    color: var(--bleuclair);
+}
+
+.n {
+    color: var(--jaune-3);
+}
+
+.e {
+    color: var(--jaune-2);
+}
+
+.w {
+    color: var(--jaune);
+}
+
+.circle {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--rouge);
+    display: flex;
+    
+  }
+
+  .textefleche {
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+  }
+
+  .liste {
+      display: flex;
+     
+     
+  }
+
+  .petitcarrej {
+    background-color: var(--jaune-3);
+    font-size: 15px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 228px;
+    align-self: center;
+    padding: 5px;
+    color: white;
+    margin-left: 50px;
+  }
+
+  .imgcentre {
+    text-align: center;
+  }
+  
