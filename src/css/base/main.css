@@ -89,6 +89,7 @@ main {
     font-family: 'Montserrat Alternates';
     font-weight: 400;
     margin: 30px;
+    letter-spacing: 1px;
 }
 
 section {
@@ -182,6 +183,7 @@ section {
     text-align: center;
     background-color: var(--rouge);
     display: flex;
+    font-family: 'Montserrat Alternates';
     
   }
 
@@ -216,3 +218,69 @@ section {
     text-align: center;
   }
   
+  .soustitregros {
+    background-color: var(--jaune-3);
+    font-size: 33px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 270px;
+    align-self: center;
+    padding: 15px;
+    color: white;
+    
+}
+
+.soustitredroite {
+    background-color: var(--jaune-3);
+    font-size: 33px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 250px;
+    align-self: center;
+    padding: 15px;
+    color: white;
+    margin-left: 125px;
+
+}
+
+    .grossoustitredroite {
+        background-color: var(--jaune-3);
+        font-size: 33px;
+        font-family: 'Montserrat Alternates';
+        font-weight: 700;
+        margin: auto;
+        border: transparent;
+        width: 250px;
+        align-self: center;
+        padding: 15px;
+        color: white;
+        margin-left: 125px;
+
+    }
+
+    .circlebleu {
+        
+        margin-top: 20px;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        font-size: 30px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--bleuclair);
+        font-family: 'Montserrat Alternates';
+        
+      }
+
+      .chiffre {
+          font-size: 23px;
+          font-family: 'Montserrat Alternates';
+          font-weight: 700;
+          color: white;
+      }
