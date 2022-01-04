@@ -348,3 +348,11 @@ section {
        padding: 20px 0 20px 0;
         margin: 100px 0 20px 0;
     }
+
+    .bottomrectbleu {
+        font-size: 10px;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates';
+        color: var(--bleufonce);
+        padding-left: 100px;
+    }
