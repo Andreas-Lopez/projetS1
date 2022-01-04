@@ -6,6 +6,10 @@ body {
 .accueiltl {
     display: flex;
     width: 100%;
+    position: absolute;
+    margin: -100px 0 -1px 0px;      
+    z-index:5;
+    
 }
 
 .triangle {
@@ -284,3 +288,63 @@ section {
           font-weight: 700;
           color: white;
       }
+
+      
+    .rectbleu {
+        
+        margin-top: 50px;
+        width: 290px;
+        height: 150px;
+        font-size: 13px;
+        color: var(--bleufonce);
+        justify-content: center;
+        align-items: center;  
+        background-color: var(--bleuclair);
+        font-family: 'Montserrat Alternates'; 
+        margin: -140px 0 -140px 22px;
+        
+        z-index:5;
+        position:absolute;
+      }
+
+      .textez {
+        color: white;
+        font-family: 'Montserrat Alternates';
+        font-weight: 400;
+        margin: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 11px;
+        
+      }
+
+      .titrerectbleu {
+          font-size: 16px;
+          font-weight: 700;
+          font-family: 'Montserrat Alternates';
+          color: var(--bleufonce);
+          padding-left: 20px;
+      }
+
+      .texterectbleu {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Montserrat Alternates';
+        color: var(--bleufonce);
+        padding-left: 20px;
+     
+    }
+
+    .introductionaccueil {
+        color: var(--bleufonce);
+        background-color: var(--bleuclair);
+        font-size: 24px;
+        font-family: 'Arvo';
+        font-weight: 700;
+        margin: auto;
+        border: transparent;
+        width: 180px;
+        align-self: center;
+       padding: 20px 0 20px 0;
+        margin: 100px 0 20px 0;
+    }
