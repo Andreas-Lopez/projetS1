@@ -356,3 +356,10 @@ section {
         color: var(--bleufonce);
         padding-left: 100px;
     }
+
+.titregalerie {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+}

@@ -33,3 +33,4 @@ function carrouselAlternate() {
                      {value: 500, duration: 0, delay: delta}]
     });
 }
+
