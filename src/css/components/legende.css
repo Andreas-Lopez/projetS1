@@ -1,0 +1,21 @@
+.texte13 {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 5em;
+	color: var(--bleufonce);
+	background-color: var(--bleuclair);
+	top: 0;
+	display: none;
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+}	
+
+.visionneuse {
+    height: 389.58px;
+    overflow: hidden;
+}
+

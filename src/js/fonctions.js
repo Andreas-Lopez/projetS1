@@ -34,3 +34,25 @@ function carrouselAlternate() {
     });
 }
 
+
+function monterLegende() {
+    document.querySelector('.texte13').style.display = 'block';
+    return anime ({
+        targets: '.texte13',
+        translateY: '-5em',
+        autoplay: false,
+        duration: 300,
+        easing: 'linear'
+    }).play;
+}
+
+function descendreLegende() {
+    document.querySelector('.texte13').style.display = 'block';
+    return anime ({
+        targets: '.texte13',
+        translateY: '5em',
+        autoplay: false,
+        duration: 300,
+        easing: 'linear'
+    }).play;
+}

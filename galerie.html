@@ -3,6 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+		<script src="src/js/fonctions.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,10 +35,21 @@
             dans lesquels Tony Stark apparait.
         </p>
 
-        <figure class="imagecentre">
-            <img src="public/img/tony-stark.webp" alt="">
-            <figcaption>©Marvel</figcaption>
-        </figure>
+
+
+
+
+        
+			<div class="visionneuse">
+				<div
+				    x-on:mouseover="monterLegende()"
+				    x-on:mouseleave="descendreLegende()">
+					    <img src="./public/img/tony-stark.webp"/></div>
+				<p class="texte13">©Marvel</p>
+			</div>
+		
+       
+
 
         <button class="introduction" type="submit">Introduction</button> 
         <p class="texte">Iron Man devient extrêmement
