@@ -421,3 +421,52 @@ input, textarea, select, option {
     border: transparent;
 
 }
+
+.page404 {
+    font-family: 'Montserrat Alternates';
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.form404 {
+    padding-top: 15px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.textbtn404 {
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.rechercher {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--rouge);
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    border: transparent;
+}
+
+.textemenu404 {
+    font-size: 14.5px;
+    color: white;
+    font-family: 'Arvo';
+    display: flex;
+    flex-direction: row;
+}
+
