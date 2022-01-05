@@ -32,7 +32,7 @@
             c’est que vous souhaitez nous
             contacter.</p>
 
-            <button class="Formulaire" type="submit">Formulaire</button> 
+            <button class="introduction" type="submit">Formulaire</button>
         <p class="texte">J’espère que le site Fly New vous a
             plu. Si vous avez des questions ou
             si vous souhaitez nous contacter,
@@ -41,41 +41,57 @@
         </p>
 
         <form>
-            <div> <label for="Nom">Nom</label></div>
-            <div> <input class="petitinput" type="text" name="Nom" id="Nom"></div>
+            <div class="margeform">
+            <div> <label for="Nom"></label></div>
+            <div> <input class="petitinput" type="text" name="Nom" id="Nom" placeholder="Nom"></div>
+        </div>
+        <div class="margeform">
+            <div> <label for="Prenom"></label></div>
+            <div> <input class="petitinput" type="text" name="Prenom" id="Prenom" placeholder="Prénom"></div>
+        </div>
+            <div class="margeform">
+            <div> <label for="Adressemail"></label></div>
+            <div> <input type="text" name="Adressemail" id="Adressemail" placeholder="Adresse mail"></div>
+        </div>
+            <div class="margeform">
+            <div> <label for="Lieudhabitation"></label></div>
+            <div> <input type="text" name="Lieudhabitation" id="Lieudhabitation" placeholder="Lieu d'habitation"></div></div>
 
-            <div> <label for="Prenom">Prénom</label></div>
-            <div> <input class="petitinput" type="text" name="Prenom" id="Prenom"></div>
-
-            <div> <label for="Adressemail">Adresse mail</label></div>
-            <div> <input type="text" name="Adressemail" id="Adressemail"></div>
-
-            <div> <label for="Lieudhabitation">Lieu d'habitation</label></div>
-            <div> <input type="text" name="Lieudhabitation" id="Lieudhabitation"></div>
-
-            <div> <label for="Votremessage">Votre message</label></div>
-            <div> <textarea id="Votremessage" name="Votremessage" rows="5" cols="25"></textarea></div>
-
-            <button class="envoyer" type="submit">Envoyer</button>
+            <div class="margeform">
+            <div> <label for="Votremessage"></label></div>
+            <div> <textarea id="Votremessage" name="Votremessage" rows="5" cols="25" placeholder="Votre message"></textarea></div>
+        </div>
         </form>
 
-        <h5>MMI Montbéliard</h5>
+            <button class="envoyer" type="submit">Envoyer</button>
+           
+        
+</section>
+        <button class="bandecontact" type="submit">MMI Montbéliard</button>
         <p class="texte">Si vous voulez en apprendre plus sur le DUT
             MMI de Montbéliard, voici les liens</p>
-
-
+<section>
+<div class="rs">
         <img src="public/icons/facebook.svg" alt="">
         <img src="public/icons/twitter.svg" alt="">
+    </div>
+    <div class="liste">
         <img src="public/icons/mmi.svg" alt="">
+    </div>
+</section>
+        <button class="bandecontact" type="submit">Marvel</button>
+<section>
 
-        <h5>Marvel</h5>
         <p class="texte">Si vous voulez en apprendre plus sur
             l’univers de Marvel:
         </p>
-
+        <div class="rs">
         <img src="public/icons/facebook.svg" alt="">
         <img src="public/icons/instagram.svg" alt="">
+        </div>
+        <div class="liste">
         <img src="public/icons/ytb.svg" alt="">
+    </div>
 
     </main>
 </section>

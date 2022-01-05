@@ -363,3 +363,60 @@ section {
     font-family: 'Montserrat Alternates';
     font-weight: 700;
 }
+
+.bandecontact {
+    background-color: var(--jaune-3);
+    font-size: 33px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    margin: auto;
+    border: transparent;
+    width: 375px;
+    align-self: center;
+    padding: 15px;
+    color: white;
+}
+
+.rs {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+   
+    padding: 15px;
+    
+    
+}
+
+input, textarea, select, option {
+    background-color: var(--bleuclair);
+    padding: 10px;
+    border-style: none;
+    }
+
+.margeform {
+    margin: 20px;
+    color: var(--bleufonce);
+}
+
+.envoyer {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--rouge);
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    border: transparent;
+
+}
